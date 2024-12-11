@@ -1,26 +1,38 @@
 # Table of contents
 
-* [Об этом Wiki](README.md)
+## General
+
+* [База знаний PRW](README.md)
+* [О проекте](general/o-proekte/README.md)
+  * [Разработчики](general/o-proekte/razrabotchiki.md)
+  * [Команда проекта](general/o-proekte/komanda-proekta.md)
 
 ## Minecraft
 
 * [Введение](minecraft/vvedenie.md)
 * [Основное](minecraft/osnovnoe/README.md)
-  * [Чат](minecraft/osnovnoe/chat.md)
+  * [Чат](minecraft/osnovnoe/chat/README.md)
+    * [Чат общин](minecraft/osnovnoe/chat/chat-obshin.md)
+    * [Настройки чата](minecraft/osnovnoe/chat/nastroiki-chata.md)
+    * [Чатбабблы](minecraft/osnovnoe/chat/chatbabbly.md)
+    * [Интеграция с дискордом](minecraft/osnovnoe/chat/integraciya-s-diskordom.md)
   * [Авторизация](minecraft/osnovnoe/avtorizaciya.md)
+  * [Роутинг и защита от DDoS атак](minecraft/osnovnoe/routing-i-zashita-ot-ddos-atak.md)
 * [Survival](minecraft/survival/README.md)
   * [Основное](minecraft/survival/osnovnoe/README.md)
-    * [Лимбо](minecraft/survival/osnovnoe/limbo.md)
-    * [Мир построек](minecraft/survival/osnovnoe/mir-postroek.md)
-    * [Мир ферм](minecraft/survival/osnovnoe/mir-ferm.md)
-    * [Энд](minecraft/survival/osnovnoe/end.md)
-  * [Плагины](minecraft/survival/plaginy.md)
+    * [Плагины](minecraft/survival/osnovnoe/plaginy.md)
+    * [Сервера](minecraft/survival/osnovnoe/servera/README.md)
+      * [Лимбо](minecraft/survival/osnovnoe/servera/limbo.md)
+      * [Мир построек](minecraft/survival/osnovnoe/servera/mir-postroek.md)
+      * [Мир ферм](minecraft/survival/osnovnoe/servera/mir-ferm.md)
+      * [Энд](minecraft/survival/osnovnoe/servera/end.md)
+    * [Глобальный респавн](minecraft/survival/osnovnoe/globalnyi-respavn.md)
 * [Creative](minecraft/creative/README.md)
   * [Плагины](minecraft/creative/plaginy.md)
 * [GCA](minecraft/gca/README.md)
   * [Система заявок](minecraft/gca/sistema-zayavok.md)
 
-## Бекенд <a href="#backend" id="backend"></a>
+## BACKEND
 
 * [Введение](backend/vvedenie.md)
 * [Основное](backend/osnovnoe/README.md)
@@ -29,6 +41,7 @@
   * [Сервис пользователей](backend/osnovnoe/servis-polzovatelei/README.md)
     * [Как мы генерируем PRDX и Minecraft UUID](backend/osnovnoe/servis-polzovatelei/kak-my-generiruem-prdx-i-minecraft-uuid.md)
   * [Сервис РП персонажей](backend/osnovnoe/servis-rp-personazhei.md)
+  * [Сервис чата](backend/osnovnoe/servis-chata.md)
   * [Сервис банов, мутов и варнов](backend/osnovnoe/servis-banov-mutov-i-varnov.md)
   * [Сервис уведомлений](backend/osnovnoe/servis-uvedomlenii.md)
   * [Сервис скидок и промокодов](backend/osnovnoe/servis-skidok-i-promokodov.md)
@@ -38,8 +51,22 @@
   * [Сервис API](backend/osnovnoe/servis-api.md)
   * [Сервис платежей](backend/osnovnoe/servis-platezhei.md)
   * [Сервис скинов и аватарок](backend/osnovnoe/servis-skinov-i-avatarok.md)
+* [Базы данных](backend/bazy-dannykh.md)
+* [Роутинг](backend/routing.md)
 
-## Дискорд <a href="#discord" id="discord"></a>
+## Infrastructure (DevOps)
+
+* [Введение](infrastructure-devops/vvedenie.md)
+* [Зачем серверу по майнкрафту Kubernetes?](infrastructure-devops/zachem-serveru-po-mainkraftu-kubernetes.md)
+* [Серверная инфраструктура](infrastructure-devops/servernaya-infrastruktura.md)
+* [Основное](infrastructure-devops/osnovnoe/README.md)
+  * [CI/CD Сервисов](infrastructure-devops/osnovnoe/ci-cd-servisov.md)
+  * [CI/CD Плагинов](infrastructure-devops/osnovnoe/ci-cd-plaginov.md)
+  * [Синхронизация плагинов и конфигов в майнкрафте](infrastructure-devops/osnovnoe/sinkhronizaciya-plaginov-i-konfigov-v-mainkrafte.md)
+  * [Метрики, алерты и логи](infrastructure-devops/osnovnoe/metriki-alerty-i-logi.md)
+  * [Бекапы](infrastructure-devops/osnovnoe/bekapy.md)
+
+## Discord
 
 * [Введение](discord/vvedenie.md)
 * [Основное](discord/osnovnoe/README.md)
@@ -57,37 +84,33 @@
   * [Бот для парламента](discord/neosnovnye-boty/bot-dlya-parlamenta.md)
   * [Бот для общин](discord/neosnovnye-boty/bot-dlya-obshin.md)
 
-## Сайт
+## Site
 
-* [Введение](sait/vvedenie.md)
-* [Структура сайта?](sait/struktura-saita/README.md)
-  * [Краткое вики](sait/struktura-saita/kratkoe-viki.md)
-  * [Карта](sait/struktura-saita/karta.md)
-  * [Статистика](sait/struktura-saita/statistika.md)
-  * [Профили игроков](sait/struktura-saita/profili-igrokov.md)
-  * [Вкладка общин](sait/struktura-saita/vkladka-obshin.md)
-  * [Чат на сайте](sait/struktura-saita/chat-na-saite.md)
-  * [Банк на сайте?](sait/struktura-saita/bank-na-saite.md)
+* [Введение](site/vvedenie.md)
+* [Основное](site/osnovnoe.md)
+* [Структура сайта?](site/struktura-saita/README.md)
+  * [Краткое вики](site/struktura-saita/kratkoe-viki.md)
+  * [Карта](site/struktura-saita/karta.md)
+  * [Статистика](site/struktura-saita/statistika.md)
+  * [Профили игроков](site/struktura-saita/profili-igrokov.md)
+  * [Вкладка общин](site/struktura-saita/vkladka-obshin.md)
+  * [Чат на сайте](site/struktura-saita/chat-na-saite.md)
+  * [Банк на сайте?](site/struktura-saita/bank-na-saite.md)
 
-## Инфраструктура (DevOps)
+## Roleplay mechanics
 
-* [Введение](infrastruktura-devops/vvedenie.md)
-
-## Внутриигровые механики
-
-* [Введение](vnutriigrovye-mekhaniki/vvedenie.md)
-* [Государственные структуры](vnutriigrovye-mekhaniki/gosudarstvennye-struktury/README.md)
-  * [Экономика](vnutriigrovye-mekhaniki/gosudarstvennye-struktury/ekonomika.md)
-  * [Интерпол](vnutriigrovye-mekhaniki/gosudarstvennye-struktury/interpol.md)
-  * [Суд](vnutriigrovye-mekhaniki/gosudarstvennye-struktury/sud.md)
-  * [Культура](vnutriigrovye-mekhaniki/gosudarstvennye-struktury/kultura.md)
-  * [Инфраструктура](vnutriigrovye-mekhaniki/gosudarstvennye-struktury/infrastruktura.md)
-* [Ролеплей](vnutriigrovye-mekhaniki/roleplei/README.md)
-  * [РП-Персонажи](vnutriigrovye-mekhaniki/roleplei/rp-personazhi.md)
-  * [РП-Роли?](vnutriigrovye-mekhaniki/roleplei/rp-roli.md)
-  * [Действия в чате](vnutriigrovye-mekhaniki/roleplei/deistviya-v-chate.md)
-* [Общины](vnutriigrovye-mekhaniki/obshiny.md)
-* [Самоуправление](vnutriigrovye-mekhaniki/samoupravlenie/README.md)
-  * [Президент](vnutriigrovye-mekhaniki/samoupravlenie/prezident.md)
-  * [Совет глав](vnutriigrovye-mekhaniki/samoupravlenie/sovet-glav.md)
-  * [Парламент](vnutriigrovye-mekhaniki/samoupravlenie/parlament.md)
+* [Введение](roleplay-mechanics/vvedenie.md)
+* [Основное](roleplay-mechanics/osnovnoe.md)
+* [Государственные структуры](roleplay-mechanics/gosudarstvennye-struktury/README.md)
+  * [Интерпол](roleplay-mechanics/gosudarstvennye-struktury/interpol.md)
+  * [Суд](roleplay-mechanics/gosudarstvennye-struktury/sud.md)
+  * [Культура](roleplay-mechanics/gosudarstvennye-struktury/kultura.md)
+  * [Инфраструктура](roleplay-mechanics/gosudarstvennye-struktury/infrastruktura.md)
+  * [Экономика](roleplay-mechanics/gosudarstvennye-struktury/ekonomika.md)
+* [Ролеплей](roleplay-mechanics/roleplei/README.md)
+  * [РП-Персонажи](roleplay-mechanics/roleplei/rp-personazhi.md)
+* [Общины](roleplay-mechanics/obshiny.md)
+* [Самоуправление](roleplay-mechanics/samoupravlenie/README.md)
+  * [Президентство](roleplay-mechanics/samoupravlenie/prezidentstvo.md)
+  * [Совет глав](roleplay-mechanics/samoupravlenie/sovet-glav.md)
+  * [Парламент](roleplay-mechanics/samoupravlenie/parlament.md)
